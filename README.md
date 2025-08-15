@@ -5,7 +5,7 @@ The program accommodates analyses at the highest taxonomic rank (e.g. genus, whe
 
 Program components and instructions including vector layers and sample datasets be downloaded and installed from [this repository](https://github.com/plantrecords/sieraex). Optional representativeness scoring and priority values can be manually calculated in concert with the software by following the steps laid out in [Kevin's thesis](https://doi.org/10.13140/RG.2.2.27268.64641) as described in [documentation](https://github.com/plantrecords/sieraex/blob/main/comprehensive_instructions.md#siera-ex-documentation). 
 
-## Quick Start
+## Quick Start -- for comprehensive instructions, view [documentation](https://github.com/plantrecords/sieraex/blob/main/comprehensive_instructions.md#siera-ex-documentation)
 
 ### 1. Install R & RStudio
 - **R**: [Download from CRAN](http://cran.r-project.org)  
@@ -17,20 +17,20 @@ Program components and instructions including vector layers and sample datasets 
 
 In RStudio:
 
-install.packages(c(
-  "shiny",
-  "leaflet",
-  "DT",
-  "dplyr",
-  "sf",
-  "plotly",
-  "shinyBS",
-  "raster",
-  "leafem",
-  "shinycssloaders",
-  "smoothr",
-  "shinyjs"
-))
+    install.packages(c(
+     "shiny",
+    "leaflet",
+    "DT",
+    "dplyr",
+    "sf",
+    "plotly",
+    "shinyBS",
+    "raster",
+    "leafem",
+    "shinycssloaders",
+    "smoothr",
+    "shinyjs"
+    ))
 
 Install additional packages as necessary.
 
