@@ -1,4 +1,5 @@
-# SIERA-*ex* (Single Island Endemic Representativeness Analysis for ex situ Collections) 
+# SIERA-*ex*: 
+## Single Island Endemic Representativeness Analysis for ex situ plant collections
 SIERA-*ex* is an interactive Shiny web application built in R for assessing the geographic representativeness of rare, single island endemic *ex situ* plant collections against wild collections on Kaua‘i. 2km buffer ranges are selected by default, in line with International Union for Conservation of Nature standards for *Area of Occupancy*. Smaller buffers are also selectable for higher resolution, and larger buffers are available in the case that the software is adapted to other islands or continental areas.
 
 The program accommodates analyses at the highest taxonomic rank (e.g. genus, when hybridization occurs) while retaining specific and infraspecific metadata (see [documentation](https://github.com/plantrecords/sieraex/blob/main/comprehensive_instructions.md#siera-ex-documentation)). The app uses spatial data files along with user uploaded CSV datasets to perform gap analysis and generate a report on representativeness across geographic units. 
