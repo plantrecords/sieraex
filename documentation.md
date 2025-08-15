@@ -52,18 +52,6 @@ If you wish to visualize sympatry or admixture across a geographic range (if app
 7. Manually examine the map to identify subpopulations falling outside of the ex situ buffers.
 8. (Optional) Assign values based upon Table III.3.2 and Table III.3.3a from Kevin's thesis, and use the equations provided to determine `FCSSIERAex`. View your uploaded data table for candidate subpopulations to determine `GRepresentation` and to calculate `Epriority`.
 
-## Deployment Considerations
-
-SIERA ex is open source and designed to run in an RStudio/Leaflet environment on any platform (Mac, PC, etc.). You can run the app locally by executing the code in RStudio, or deploy it to a server (e.g., using shinyapps.io or a Shiny Server) if you wish to share it publicly.
-
-When using or sharing SIERA ex, please provide attribution to:
-
-- Kevin Houck, NTBG
-- Atlanta Botanical Garden
-- Hawai‘i State GIS Program (for the moku, ahupuaʻa, and watershed shapefiles, and GRA GEOJson)
-- Dr. Kawika Winter and Matthew P. Lucas (if using the wao layer)
-- Potter, Kevin M. 2023. Ecological regions of Hawai'i. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2023-0018 (if using the ecoregion layer)
-
 ## Detailed instructions
 
 ### Build Requirements
