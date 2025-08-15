@@ -8,7 +8,7 @@ SIERA-ex is an interactive Shiny web application built in R for assessing the ge
 - **RStudio** (recommended): [Download here](https://posit.co/download/rstudio-desktop)
 
 ### 2. Clone or Download this Repository
-### 3. Plac thee basemaps folder and subfolders in the same directory as sieraex.R
+### 3. Place the basemaps folder and associated subfolders in the same directory as sieraex.R
 ### 4. Install Required R Packages
 
 In RStudio:
@@ -22,19 +22,15 @@ Install additional packages as necessary.
 
 ### 5. Run the App
 
-Open sieraex.R in RStudio
-
-Click Run App
+- Open sieraex.R in RStudio
+- Click Run App
 
 Use the UI to:
 
-  Upload sample wild and ex situ CSV datasets. To upload custom datasets, see [documentation](https://github.com/plantrecords/sieraex/blob/main/comprehensive_instructions.md#siera-ex-documentation).
-
-  Curate points interactively
-
-  Run gap analysis
-
-  Generate representativeness report
+- Upload sample wild and ex situ CSV datasets. To upload custom datasets, see [documentation](https://github.com/plantrecords/sieraex/blob/main/comprehensive_instructions.md#siera-ex-documentation).
+- Curate points interactively
+- Run gap analysis
+- Generate representativeness report
 
 ## Deployment Considerations
 
