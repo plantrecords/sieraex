@@ -1,11 +1,11 @@
 # SIERA-*ex* (Single Island Endemic Representativeness Analysis for ex situ Collections) 
-SIERA-*ex* is an interactive Shiny web application built in R for assessing the geographic representativeness of rare, single island endemic *ex situ* plant collections against wild collections on Kaua‘i. 2km buffer ranges are selected by default, in line with International Union for Conservation of Nature standards for *Area of Occupancy*, however 1km buffers may be preferable for higher resolution (It may be applicable to other islands and possibly continental areas as well; for this reason, buffer size options >2 km are available.) 
+SIERA-*ex* is an interactive Shiny web application built in R for assessing the geographic representativeness of rare, single island endemic *ex situ* plant collections against wild collections on Kaua‘i. 2km buffer ranges are selected by default, in line with International Union for Conservation of Nature standards for *Area of Occupancy*. Smaller buffers are also selectable for higher resolution, and larger buffers are available in the case that the software is adapted to other islands or continental areas.
 
 The program accommodates analyses at the highest taxonomic rank (e.g. genus, when hybridization occurs) while retaining specific and infraspecific metadata (see [documentation](https://github.com/plantrecords/sieraex/blob/main/comprehensive_instructions.md#siera-ex-documentation)). The app uses spatial data files along with user uploaded CSV datasets to perform gap analysis and generate a report on representativeness across geographic units. 
 
 Program components and instructions including vector layers and sample datasets be downloaded and installed from [this repository](https://github.com/plantrecords/sieraex). Optional representativeness scoring and priority values can be manually calculated in concert with the software by following the steps laid out in [Kevin's thesis](https://doi.org/10.13140/RG.2.2.27268.64641) as described in [documentation](https://github.com/plantrecords/sieraex/blob/main/comprehensive_instructions.md#siera-ex-documentation). 
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install R & RStudio
 - **R**: [Download from CRAN](http://cran.r-project.org)  
@@ -50,4 +50,4 @@ When using or sharing SIERA-ex, please provide attribution to:
 
 ## Reference
 
-Houck K. SIERA-*ex* (Single-Island Endemic Representativeness Analysis for *ex situ* Collections): a Kauaʻi-based plant conservation model. [M.S.]. Honolulu, HI: University of Hawai’i at Mānoa (in press); 2025. https://doi.org/10.13140/RG.2.2.27268.64641
+Houck K. SIERA-*ex* (Single-Island Endemic Representativeness Analysis for *ex situ* Collections): a Kauaʻi-based plant conservation model. [M.S.]. Honolulu, HI: University of Hawai’i at Mānoa; 2025. https://doi.org/10.13140/RG.2.2.27268.64641
