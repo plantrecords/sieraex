@@ -12,8 +12,9 @@ Program components and instructions including vector layers and sample datasets 
 - **R**: [Download from CRAN](http://cran.r-project.org)  
 - **RStudio** (recommended): [Download here](https://posit.co/download/rstudio-desktop)
 
-### 2. Clone or Download this Repository
+### 2. Download this Repository
 ### 3. Place the basemaps folder and associated subfolders in the same directory as sieraex.R
+- Set the working directory in R (or RStudio) to the sieraex folder that you downloaded.
 ### 4. Install Required R Packages
 
 In RStudio:
