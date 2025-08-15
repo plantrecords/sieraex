@@ -18,8 +18,18 @@ Program components and instructions including vector layers and sample datasets 
 In RStudio:
 
 install.packages(c(
-  "shiny", "leaflet", "DT", "dplyr", "sf",
-  "plotly", "shinyBS", "raster", "leafem", "shinycssloaders"
+  "shiny",
+  "leaflet",
+  "DT",
+  "dplyr",
+  "sf",
+  "plotly",
+  "shinyBS",
+  "raster",
+  "leafem",
+  "shinycssloaders",
+  "smoothr",
+  "shinyjs"
 ))
 
 Install additional packages as necessary.
