@@ -22,19 +22,19 @@ Install additional packages as necessary.
 
 ### 5. Run the App
 
-    Open sieraex.R in RStudio
+Open sieraex.R in RStudio
 
-    Click Run App
+Click Run App
 
-    Use the UI to:
+Use the UI to:
 
-        Upload sample wild and ex situ CSV datasets. To upload custom datasets, see [documentation](https://github.com/plantrecords/sieraex/blob/main/comprehensive_instructions.md#siera-ex-documentation).
+  Upload sample wild and ex situ CSV datasets. To upload custom datasets, see [documentation](https://github.com/plantrecords/sieraex/blob/main/comprehensive_instructions.md#siera-ex-documentation).
 
-        Curate points interactively
+  Curate points interactively
 
-        Run gap analysis
+  Run gap analysis
 
-        Generate representativeness report
+  Generate representativeness report
 
 ## Deployment Considerations
 
